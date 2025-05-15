@@ -16,21 +16,21 @@
 .hero-content h2 {
   font-size: 2.5em;
   font-weight: bold;
-  color: #8AB4F8;
+  color: #f6f7f8;
   margin-bottom: 20px;
 }
 
 .hero-content p {
-  font-size: 1.2em;
+  font-size: 1.6em;
   line-height: 1.6;
   color: #BDBDBD;
   margin-bottom: 30px;
 }
 
 .cta-button {
-  background-color: #121212;
+  background-color: #4404f7;
   color: #E0E0E0;
-  font-size: 1em;
+  font-size: 2em;
   padding: 15px 30px;
   border: none;
   border-radius: 10px;

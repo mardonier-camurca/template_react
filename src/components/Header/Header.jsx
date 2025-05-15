@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <header className="header">
       <div className="logo">
-        <h1>React App</h1>
+        <h1>React template</h1>
       </div>
       <nav className="nav">
         <ul>

@@ -4,24 +4,24 @@ export default function Features() {
   const featuresList = [
     {
       id: 1,
-      title: "Component-Based",
-      description: "Build encapsulated components that manage their own state.",
+      title: "Baseado em Componentes",
+      description: "Crie componentes encapsulados que gerenciem seu próprio estado.",
     },
     {
       id: 2,
-      title: "Declarative",
-      description: "React makes it painless to create interactive UIs.",
+      title: "Declarativa",
+      description: "O React torna a criação de interfaces de usuário interativas muito mais fácil.",
     },
     {
       id: 3,
-      title: "Learn Once, Write Anywhere",
-      description: "Develop new features without rewriting existing code.",
+      title: "Aprenda uma única vez",
+      description: "Desenvolver novos recursos sem reescrever o código existente.",
     },
   ]
 
   return (
     <section className="features" id="features">
-      <h2>Key Features</h2>
+      <h2>Características Principais</h2>
       <div className="features-grid">
         {featuresList.map((feature) => (
           <div className="feature-card" key={feature.id}>
